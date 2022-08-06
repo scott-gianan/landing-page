@@ -1,0 +1,126 @@
+/*Universal selector*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial, serif;
+	scroll-behavior: smooth;
+}
+
+/*navigation bar*/
+
+.navigation {
+	display: flex;
+	background-color:  #6E85B7;
+	height: 7.5vh;
+	align-items: center;
+	padding: 0 5% 0 5%;
+}
+
+h1{
+	font-size: 4rem;
+	font-weight: 900;
+	
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right-links {
+	display: flex;
+	justify-content: flex-end;
+	gap: 1em;
+}
+
+.heading {
+	display: flex;
+	height: 50vh;
+	align-items: center;
+	padding: 5%;
+	background-color:  #B2C8DF;
+	margin-bottom: 2.5%;
+}
+
+
+.img-collection {
+	height: 20vh;
+	width: 20vw;
+}
+
+.photo-collection {
+	display: flex;
+	padding:2.5% 5%;
+	gap: 2.5%;
+	margin-bottom: 10%;
+	flex-shrink: 1;	
+}
+
+.mseaflap, .nrope, .tpanda, .vrabbit {
+	display: flex;
+	flex-direction: column;
+	width: 25vw; 
+	height: 25vh;
+	align-items: center;
+	text-align: justify;
+	gap:  5%;
+}
+
+.sign-up {
+	display: flex;
+	background-color: #C4D7E0;
+	margin: 5%;
+	height: 25vh;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10%;
+}
+
+.sign-up-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.sign-up-form {
+	display: flex;
+	align-content: center;
+	gap: 1em;
+}
+
+.sign-up-message {
+	font-size: 1rem;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 0.5rem;
+	background-color: #F8F9D7;
+	padding: 1rem;
+}
+
+.quote {
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	width: 50vw;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #183EFA;
+}
+
+#pcollection {
+	display: block;
+	margin: 0 5%;
+	border-bottom: 0.1rem solid #ECECEC;
+}
